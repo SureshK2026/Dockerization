@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . /app
 RUN python -m pip install --upgrade pip && pip install -r requirements.txt
 EXPOSE 9000
-CMD["python","app.py"]
+CMD ["python","app.py"]
